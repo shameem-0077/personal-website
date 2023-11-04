@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration:  none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+p {
+    line-height: 25px;
+}
+
+body {
+    font-family: 'Josefin Sans';
+    background-color: #F5F7F8;
+
+}
+
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.contact-me-button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #F4CE14;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.get-in-touch {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+#header {
+    
+}
+
+#header > .wrapper {
+    padding: 20px 0;
+    
+}
+
+#header > .wrapper > header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#header > .wrapper > header > .header-left {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    
+}
+
+#header > .wrapper > header > .header-left > .logo-container {
+    width: 100px;
+    
+}
+
+#header > .wrapper > header > .header-left > .logo-container > img {
+    
+}
+
+#header > .wrapper > header > .header-left > .logo-container > h1 {
+    
+}
+
+#header > .wrapper > header > .header-right {
+    display: flex;
+    margin: 0;
+        
+    
+}
+
+#header > .wrapper > header > .header-right > ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+#header > .wrapper > header > .header-right > ul > li {
+    padding: 10px;
+    
+}
+
+#header > .wrapper > header > .header-right > ul > li > a {
+    color: black;
+    
+}
+
+#header > .wrapper > header > .header-right > ul > li > a.contact-me-button {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* spotlight */
+#spotlight {
+
+}
+
+#spotlight > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+
+}
+
+#spotlight > .wrapper > .spotlight-left {
+    margin: auto 0;
+    padding: 50px;
+}
+
+#spotlight > .wrapper > .spotlight-left > p.top-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+#spotlight > .wrapper > .spotlight-left > h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+
+}
+
+#spotlight > .wrapper > .spotlight-left > p.sub-p {
+    margin: 0 0 10px 0;
+    width: 70%;
+}
+
+#spotlight > .wrapper > .spotlight-left > button {    
+    margin-bottom: 10px;
+
+}
+
+#spotlight > .wrapper > .spotlight-right {
+
+}
+
+#spotlight > .wrapper > .spotlight-right > .spotlight-image-container {
+    width: 600px;
+    height: 600px;
+    background-image: url("../assets/images/background-bg-photo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#spotlight > .wrapper > .spotlight-right > .spotlight-image-container > img {
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top center;
+    display: none;
+}
+
+/* what i do section */
+#what-i-do {
+    margin-top: 50px;
+
+}
+
+#what-i-do > .wrapper {
+
+}
+
+#what-i-do > .wrapper > .what-i-do-top {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+#what-i-do > .wrapper > .what-i-do-top > h2 {
+    font-size: 40px;
+
+}
+
+#what-i-do > .wrapper > .what-i-do-bottom {
+
+}
+
+#what-i-do > .wrapper > .what-i-do-bottom > ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#what-i-do > .wrapper > .what-i-do-bottom > ul > li {
+    width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#what-i-do > .wrapper > .what-i-do-bottom > ul > li > div.top {
+    
+} 
+
+#what-i-do > .wrapper > .what-i-do-bottom > ul > li > div.top > .what-i-do-image-container {
+    width: 100px;
+    margin-bottom: 20px;
+    
+
+
+}
+
+#what-i-do > .wrapper > .what-i-do-bottom > ul > li > div.top > .what-i-do-image-container > img {
+
+}
+
+#what-i-do > .wrapper > .what-i-do-bottom > ul > li > div.top > h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+#what-i-do > .wrapper > .what-i-do-bottom > ul > li > div.top > p {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#what-i-do > .wrapper > .what-i-do-bottom > ul > li > div.bottom {
+    margin: 0;
+    
+
+}
+
+#what-i-do > .wrapper > .what-i-do-bottom > ul > li > div.bottom > button {
+
+}
+
+#featured-projects {
+    margin-top: 100px;
+
+}
+
+#featured-projects > .wrapper {
+
+}
+
+#featured-projects > .wrapper > .top {
+    text-align: center;
+
+}
+
+#featured-projects > .wrapper > .top > h3 {
+    font-size: 40px;
+    
+}
+
+#featured-projects > .wrapper > .bottom {
+    margin-top: 80px;
+    
+}
+
+#featured-projects > .wrapper > .bottom > ul {
+    
+}
+
+#featured-projects > .wrapper > .bottom > ul > li {
+    display: flex;
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+#featured-projects > .wrapper > .bottom > ul > li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#featured-projects > .wrapper > .bottom > ul > div.left {
+    
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.left > .project-feature-image {
+    width: 600px;
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.left > .project-feature-image > img {
+    border-radius: 20px;
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right {
+    margin: auto 0;
+    padding: 50px;
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.top {
+    margin-bottom: 20px;
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.top > ul {
+    display: flex;
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.top > ul > li {
+    margin: 0;
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.top > ul > li > div.tag {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.top > ul > li > div.tag > p {
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.middle {
+    margin-bottom: 20px;
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.middle > h4 {
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.middle > p {
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.bottom {
+
+}
+
+#featured-projects > .wrapper > .bottom > ul > li > div.right > div.bottom > a {
+
+}
+
+#about-me {
+    margin-bottom: 50px;
+
+}
+
+#about-me > .wrapper {
+    display: flex;
+
+}
+
+#about-me > .wrapper > .left {
+    padding: 20px;
+
+}
+
+#about-me > .wrapper > .left > h3 {
+    font-size: 60px;
+    margin-bottom: 10px;
+
+}
+
+#about-me > .wrapper > .left > p {
+    font-size: 20px;
+    width: 80%;
+    margin: 0;
+
+}
+
+#about-me > .wrapper > .right {
+
+}
+
+#about-me > .wrapper > .right > .about-me-image-container {
+    border-radius: 20px;
+    
+
+}
+
+#about-me > .wrapper > .right > .about-me-image-container > img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 20px;
+
+
+
+}
+
+#footer {
+
+}
+
+#footer > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+#footer > .wrapper > .left {
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+}
+
+#footer > .wrapper > .left > .logo-container {
+    width: 100px;
+
+}
+
+#footer > .wrapper > .left > .logo-container > img {
+
+}
+
+
+#footer > .wrapper > .left > .personal-info {
+
+}
+
+#footer > .wrapper > .left > .personal-info > h1 {
+
+}
+
+#footer > .wrapper > .left > .personal-info > p {
+
+}
+
+#footer > .wrapper > .right {
+    margin: 0;
+
+}
+
+#footer > .wrapper > .right > .top {
+
+}
+
+#footer > .wrapper > .right > .top > p {
+
+}
